@@ -153,7 +153,8 @@ margin-bottom:25px;
 
 font-family:'Cormorant Garamond',serif;
 
-font-size:6rem;
+font-size:7rem;
+    max-width:900px;
 
 font-weight:600;
 
@@ -185,27 +186,31 @@ align-items:center;
 
 justify-content:center;
 
-padding:20px 44px;
+padding:22px 52px;
 
-border-radius:100px;
+border-radius:999px;
 
-background:#1F1F1F;
+background:#202020;
 
 color:white;
 
 text-decoration:none;
 
+font-size:1rem;
+
 font-weight:500;
 
 transition:.35s;
+
+box-shadow:0 20px 45px rgba(0,0,0,.12);
 
 }
 
 .btn:hover{
 
-transform:translateY(-5px);
+transform:translateY(-6px) scale(1.02);
 
-background:#B08A4A;
+background:#2F5DFF;
 
 }
 
