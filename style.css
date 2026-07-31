@@ -301,3 +301,22 @@ right:-80px;
     pointer-events:none;
 
 }
+body::before{
+
+content:"";
+
+position:fixed;
+
+inset:0;
+
+pointer-events:none;
+
+background:
+
+radial-gradient(circle at 25% 30%, rgba(255,255,255,.9), transparent 18%),
+
+radial-gradient(circle at 75% 60%, rgba(255,255,255,.7), transparent 20%);
+
+mix-blend-mode:screen;
+
+}
