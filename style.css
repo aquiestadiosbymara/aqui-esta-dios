@@ -59,36 +59,27 @@ backdrop-filter:blur(14px);
 }
 
 .logo{
-
-    display:flex;
+    display:inline-flex;
     flex-direction:column;
-
 }
+
 .logo h3{
-
-    font-family:'Cormorant Garamond',serif;
-
+    font-family:'Cormorant Garamond', serif;
     font-size:1.8rem;
-
     font-weight:600;
-
     letter-spacing:2px;
-
+    margin:0;
+    line-height:1;
 }
+
 .logo span{
-
-    align-self:flex-end;
-
-    margin-top:-4px;
-
-    font-size:.75rem;
-
+    width:100%;
+    text-align:right;
+    font-size:.68rem;
     font-style:italic;
-
     color:#8A8A8A;
-
+    margin-top:2px;
     letter-spacing:.5px;
-
 }
 
 nav{
