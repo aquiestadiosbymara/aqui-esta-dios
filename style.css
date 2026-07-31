@@ -16,11 +16,14 @@ scroll-behavior:smooth;
 
 body{
 
-background:#F8F5EF;
+    background:
+    radial-gradient(circle at top,#FDFBF7 0%,#F8F5EF 45%,#EFE8DD 100%);
 
-color:#202020;
+    color:#202020;
 
-font-family:'Inter',sans-serif;
+    font-family:'Inter',sans-serif;
+
+    overflow-x:hidden;
 
 }
 
