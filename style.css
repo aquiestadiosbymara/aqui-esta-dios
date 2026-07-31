@@ -276,3 +276,22 @@ bottom:-120px;
 right:-80px;
 
 }
+.stars{
+
+    position:fixed;
+
+    top:110px;
+
+    right:70px;
+
+    font-size:22px;
+
+    color:#D7B45A;
+
+    letter-spacing:14px;
+
+    opacity:.45;
+
+    pointer-events:none;
+
+}
