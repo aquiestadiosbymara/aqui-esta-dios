@@ -1,4 +1,6 @@
-/* RESET */
+/* ==========================
+   RESET
+========================== */
 
 *{
     margin:0;
@@ -6,8 +8,118 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background:#FAF8F5;
     color:#1F1F1F;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px;
+
+    text-align:center;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.eyebrow{
+
+    color:#B89B5E;
+
+    letter-spacing:4px;
+
+    font-size:.9rem;
+
+    margin-bottom:25px;
+
+    font-weight:bold;
+
+}
+
+.hero h1{
+
+    font-size:4rem;
+
+    line-height:1.1;
+
+    margin-bottom:30px;
+
+}
+
+.description{
+
+    font-size:1.25rem;
+
+    line-height:1.8;
+
+    color:#666;
+
+    max-width:700px;
+
+    margin:0 auto 50px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#1F1F1F;
+
+    color:white;
+
+    padding:18px 40px;
+
+    border-radius:999px;
+
+    transition:.35s;
+
+    font-weight:bold;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+    background:#B89B5E;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.hero h1{
+
+    font-size:2.5rem;
+
+}
+
+.description{
+
+    font-size:1rem;
+
+}
+
 }
