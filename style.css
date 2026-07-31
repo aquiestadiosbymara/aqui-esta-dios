@@ -17,7 +17,10 @@ scroll-behavior:smooth;
 body{
 
     background:
-    radial-gradient(circle at top,#FDFBF7 0%,#F8F5EF 45%,#EFE8DD 100%);
+    radial-gradient(circle at 10% 20%, rgba(175,220,255,.45), transparent 30%),
+    radial-gradient(circle at 90% 15%, rgba(255,220,170,.30), transparent 28%),
+    radial-gradient(circle at 50% 85%, rgba(225,210,255,.28), transparent 35%),
+    linear-gradient(180deg,#FCFEFF 0%,#F7FBFF 45%,#FDFBF7 100%);
 
     color:#202020;
 
@@ -26,7 +29,6 @@ body{
     overflow-x:hidden;
 
 }
-
 
 /*=========================
 HEADER
