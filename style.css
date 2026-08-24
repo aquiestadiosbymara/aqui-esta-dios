@@ -68,16 +68,20 @@ a {
     font-size: 15px;
     letter-spacing: 4px;
     font-weight: 600;
-    color: #b08a4a;
+    color: #a9823f;
+    text-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.8),
+        0 2px 6px rgba(169, 130, 63, 0.18);
 }
-
 .brand-by {
     font-size: 13px;
     font-style: italic;
-    color: #b08a4a;
-    opacity: 0.85;
+    color: #9b7333;
+    opacity: 1;
+    text-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.9),
+        0 2px 5px rgba(155, 115, 51, 0.18);
 }
-
 .intro {
     max-width: 590px;
     margin: 0 auto;
@@ -124,9 +128,12 @@ h1 span {
 .mentor {
     margin-top: 10px;
     font-size: 17px;
-    font-weight: 500;
-    color: #8f6d35;
+    font-weight: 600;
+    color: #9b7333;
     letter-spacing: 0.2px;
+    text-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.9),
+        0 2px 6px rgba(155, 115, 51, 0.16);
 }
 .main-button {
     margin-top: 25px;
@@ -148,7 +155,7 @@ h1 span {
     letter-spacing: 1.7px;
     font-weight: 600;
 
-    border: 1px solid rgba(176, 138, 74, 0.45);
+   border: 1px solid rgba(176, 138, 74, 0.65);
 
     box-shadow:
         0 12px 30px rgba(48, 45, 43, 0.12),
