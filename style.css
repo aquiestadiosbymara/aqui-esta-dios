@@ -1,1 +1,360 @@
+/* =========================================
+   AQUÍ ESTÁ DIOS · MARA TRIGUERO
+   Página de enlaces
+========================================= */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: #faf9f7;
+    color: #302d2b;
+    font-family: Georgia, "Times New Roman", serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* =========================================
+   PÁGINA
+========================================= */
+
+.page {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 45px 24px 35px;
+    position: relative;
+}
+
+
+/* =========================================
+   ARCOÍRIS
+========================================= */
+
+.rainbow {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.rainbow-top {
+    width: 310px;
+    height: 155px;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-top: 2px solid rgba(218, 167, 190, 0.45);
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+
+    box-shadow:
+        0 -8px 0 rgba(229, 184, 193, 0.25),
+        0 -16px 0 rgba(235, 207, 165, 0.22),
+        0 -24px 0 rgba(184, 210, 188, 0.20),
+        0 -32px 0 rgba(184, 203, 224, 0.18);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 55px;
+}
+
+.brand-main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.brand-by {
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.65;
+}
+
+.intro {
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    font-size: 18px;
+    margin-bottom: 22px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: clamp(30px, 6vw, 48px);
+    line-height: 1.14;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+}
+
+h1 span {
+    display: block;
+    margin-top: 5px;
+}
+
+.description {
+    max-width: 500px;
+    margin: 25px auto 0;
+    font-size: 17px;
+    line-height: 1.7;
+    opacity: 0.72;
+}
+
+
+/* =========================================
+   ESCUELA
+========================================= */
+
+.school-section {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.section-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    opacity: 0.55;
+}
+
+.mentor {
+    margin-top: 8px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.main-button {
+    margin-top: 25px;
+
+    min-height: 68px;
+    padding: 17px 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    border-radius: 18px;
+
+    background: #302d2b;
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.7px;
+    font-weight: 600;
+
+    box-shadow: 0 12px 30px rgba(48, 45, 43, 0.12);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.main-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 35px rgba(48, 45, 43, 0.18);
+}
+
+.button-icon {
+    font-size: 19px;
+}
+
+.arrow {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* =========================================
+   REDES
+========================================= */
+
+.links-section {
+    margin-top: 65px;
+}
+
+.links-section h2 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.secondary-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.secondary-button {
+    min-height: 58px;
+    padding: 15px 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid rgba(48, 45, 43, 0.14);
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.6);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.secondary-button:hover {
+    transform: translateY(-2px);
+    background: #fff;
+}
+
+
+/* =========================================
+   RECURSOS
+========================================= */
+
+.resources-section {
+    margin-top: 65px;
+}
+
+.resources-section .section-label {
+    display: block;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.resource-link {
+    min-height: 58px;
+    padding: 15px 18px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    border-bottom: 1px solid rgba(48, 45, 43, 0.13);
+
+    font-size: 15px;
+
+    transition:
+        padding-left 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.resource-link:hover {
+    padding-left: 23px;
+    opacity: 0.7;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    text-align: center;
+    margin-top: 75px;
+    padding-bottom: 10px;
+}
+
+.small-rainbow {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto 20px;
+
+    border-radius: 100px 100px 0 0;
+
+    border-top: 2px solid rgba(218, 167, 190, 0.5);
+
+    box-shadow:
+        0 -7px 0 rgba(229, 184, 193, 0.3),
+        0 -14px 0 rgba(235, 207, 165, 0.25),
+        0 -21px 0 rgba(184, 210, 188, 0.2);
+}
+
+footer p {
+    font-size: 17px;
+    font-style: italic;
+}
+
+footer span {
+    display: block;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+
+/* =========================================
+   MÓVIL
+========================================= */
+
+@media (max-width: 520px) {
+
+    .page {
+        padding: 35px 20px 30px;
+    }
+
+    .brand {
+        margin-bottom: 45px;
+    }
+
+    .eyebrow {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .secondary-links {
+        grid-template-columns: 1fr;
+    }
+
+    .main-button {
+        min-height: 64px;
+    }
+}
